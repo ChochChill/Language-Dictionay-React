@@ -38,6 +38,7 @@ function App() {
   console.log(meanings);
   useEffect(() => {
     dictionaryApi();
+     // eslint-disable-next-line
   }, [category, word]);
   return (
     <div
