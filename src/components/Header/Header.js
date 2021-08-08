@@ -10,9 +10,9 @@ import categories from "../../data/category";
 const Header = (props) => {
   const darkTheme = createTheme({
     palette: {
-      type: "dark",
+      type: props.lightMode ? "light" : "dark",
       primary: {
-        main: "#fff",
+        main: props.lightMode ? "#000":"#fff",
       },
     },
   });
@@ -20,7 +20,7 @@ const Header = (props) => {
     props.setCategory(language);
     props.setWord("")
   }
-  
+
   return (
     <div className="header">
       <span className="title">{props.word ? props.word : "Word Hunt"}</span>
