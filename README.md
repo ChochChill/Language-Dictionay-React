@@ -1,6 +1,6 @@
 # Readme for running the react app
 
-This project is deployed here [Dict-ionary](https://github.com/facebook/create-react-app).
+This project is deployed here [Dict-ionary](https://thereactdictionary.netlify.app/).
 
 ## Available Scripts
 
