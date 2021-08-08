@@ -1,3 +1,4 @@
+// A dictionary/json for pointing language to its api keyword 
 const categories = [
     { value: "English", label: "en" },
     { value: "Hindi", label: "hi" },
